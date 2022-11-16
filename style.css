@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+background: transparent;
+background: linear-gradient(70deg, rgba(9, 132,227,0.85) 80%, rgba(0,59,177,0.98) 100%), url(images/header.jpg);
+opacity: 1;
+transition: 0.3s, border-radius 0.3s, opacity 0.3s;
+height: 800px;
+position: relative;
+}
+.logo img{
+    width: 18%;
+    margin: 35px  100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0  300px;
+}
+.nav-links ul li {
+    display: inline-block;
+    padding: 50px 5px;
+    margin-left: 15px;
+}
+.nav-links ul li a{
+    font-size: 20px;
+    font-family: 'Capriola';
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.7;
+    transition: 0.50s;
+}
+.nav-links ul li a:hover{
+    opacity: 1;
+}
+.header-title{
+    text-align: center;
+    align-items: center;
+    margin: 90px auto;
+}
+.header-title h1{
+    font-size: 44px;
+    color: #fff;
+  font-family: 'Capriola',sans-serif;
+}
+.header-title p{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    padding: 5px 20px;
+}
+.header-btn{
+    width: 10%;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    color: rgb(9, 132,227,0.85);
+}
+.header-box{
+    display: flex;
+    position: absolute;
+    top: 650px;
+    left: 420px;
+}
+.header-box .one{
+    margin: 40px;
+    background-color: #fff;
+    width: 20%;
+    height: 250px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px  1px 0px #000;
+    border-radius: 10px;
+    transition: 0.18s;
+}
+.header-box .one:hover{
+    box-shadow: 0px 0px  5px 0px #000;
+}
+.header-box .one img{
+    width: 25%;
+    color: rgb(13, 13, 131);
+    margin: 1px  10px;
+}
+.header-box .one p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.courses{
+    position: relative;
+    display: flex;
+    margin: 20px;
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 190px;
+    left: 630px;
+    font-family: 'Capriola',sans-serif;
+}
+
+.course-one{
+    width: 20%;
+    height: 450px;
+    top: 260px;
+    left: 330px;
+    margin: 40px;
+    position: absolute;
+    box-shadow: 0px 0px  1px 0px #000;
+    border-radius: 10px;
+    transition: 0.18s;
+    padding: 10px;
+}
+.course-one:hover{  
+    box-shadow: 0px 0px  5px 0px #000;
+}
+.course-one img{
+    width: 100%;
+}
+.course-one h1{
+    position: absolute;
+    top: 270px;
+}
+.course-one p{
+    position: absolute;
+    top: 310px;
+    color: gray;
+}
+.course-btn{
+    position: absolute;
+    top: 370px;
+    left: 0;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 20px;
+    background-color: #428bca;;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+.course-two{
+    width: 20%;
+    height: 450px;
+    top: 260px;
+    left: 750px;
+    margin: 40px;
+    position: absolute;
+    box-shadow: 0px 0px  1px 0px #000;
+    border-radius: 10px;
+    transition: 0.18s;
+    padding: 10px;
+}
+.course-two:hover{  
+    box-shadow: 0px 0px  5px 0px #000;
+}
+.course-two img{
+    width: 100%;
+    height: 250px;
+}
+.course-two h1{
+    position: absolute;
+    top: 270px;
+}
+.course-two p{
+    position: absolute;
+    top: 310px;
+    color: gray;
+}
+.course-three{
+    width: 20%;
+    height: 450px;
+    top: 260px;
+    left: 1190px;
+    margin: 40px;
+    position: absolute;
+    box-shadow: 0px 0px  1px 0px #000;
+    border-radius: 10px;
+    transition: 0.18s;
+    padding: 10px;
+}
+.course-three:hover{  
+    box-shadow: 0px 0px  5px 0px #000;
+}
+.course-three img{
+    width: 100%;
+    height: 250px;
+}
+.course-three h1{
+    position: absolute;
+    top: 270px;
+}
+.course-three p{
+    position: absolute;
+    top: 310px;
+    color: gray;
+}   
+.course-four{
+    width: 20%;
+    height: 450px;
+    top: 760px;
+    left: 1190px;
+    margin: 40px;
+    position: absolute;
+    box-shadow: 0px 0px  1px 0px #000;
+    border-radius: 10px;
+    transition: 0.18s;
+    padding: 10px;
+}
+.course-four:hover{  
+    box-shadow: 0px 0px  5px 0px #000;
+}
+.course-four img{
+    width: 100%;
+    height: 250px;
+}
+.course-four h1{
+    position: absolute;
+    top: 270px;
+}
+.course-four p{
+    position: absolute;
+    top: 310px;
+    color: gray;
+}
+.course-five{
+    width: 20%;
+    height: 450px;
+    top: 760px;
+    left: 750px;
+    margin: 40px;
+    position: absolute;
+    box-shadow: 0px 0px  1px 0px #000;
+    border-radius: 10px;
+    transition: 0.18s;
+    padding: 10px;
+}
+.course-five:hover{  
+    box-shadow: 0px 0px  5px 0px #000;
+}
+.course-five img{
+    width: 100%;
+    height: 250px;
+}
+.course-five h1{
+    position: absolute;
+    top: 270px;
+}
+.course-five p{
+    position: absolute;
+    top: 310px;
+    color: gray;
+}
+.course-six{
+    width: 20%;
+    height: 450px;
+    top: 760px;
+    left: 330px;
+    margin: 40px;
+    position: absolute;
+    box-shadow: 0px 0px  1px 0px #000;
+    border-radius: 10px;
+    transition: 0.18s;
+    padding: 10px;
+}
+.course-six:hover{  
+    box-shadow: 0px 0px  3px 0px #000;
+}
+.course-six img{
+    width: 100%;
+    height: 250px;
+}
+.course-six h1{
+    position: absolute;
+    top: 270px;
+}
+.course-six p{
+    position: absolute;
+    top: 310px;
+    color: gray;
+}
